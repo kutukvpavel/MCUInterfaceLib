@@ -14,6 +14,8 @@ using System.Xml.Serialization;
 using System.Xml;
 using System.Runtime.Serialization;
 
+//TODO: fix localization
+
 namespace MCUI
 {
 	#region Commands
