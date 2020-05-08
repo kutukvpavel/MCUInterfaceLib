@@ -1,18 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.IO;
-using System.IO.Ports;
 using System.Linq;
 using System.Management.Instrumentation;
 using System.Reflection;
-using System.Text;
-using System.Threading;
-using StatisitcsLib;
-using StatisitcsLib.CryptoAnalysis;
-using System.Xml.Serialization;
-using System.Xml;
-using System.Runtime.Serialization;
 
 [assembly: WmiConfiguration(@"root\MCUI", HostingModel = ManagementHostingModel.Decoupled)]
 [assembly: Instrumented(@"root\MCUI")]
